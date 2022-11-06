@@ -1,0 +1,42 @@
+.btn {
+
+    border-radius: 5px;
+    height: 4rem;
+    padding: 1%;
+    border: none;
+    position: relative;
+    background: linear-gradient(45deg, #171b1f 0, #171b1f 50%, #29abe1 100%);
+    color: white;
+
+    &:hover {
+        color: black;
+        background: white;
+        border: 2px solid #171b1f;
+    }
+    &.small{
+    border: 2px solid #171b1f;
+    padding: 7px !important;
+    border-radius: 0.6rem;
+    }
+}
+
+.btn-back {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    margin-top: 20px 0px;
+}
+
+
+.sout{
+    border-radius: 5px;
+    height: 4rem;
+    width: 8rem;
+    padding: 1%;
+    border: none;
+
+    background-color: #171b1f;
+    position: relative;
+    color: white;
+}
